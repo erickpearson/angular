@@ -1,0 +1,7 @@
+﻿<div class="large-4 small-4 columns" ng-controller="RelatedController">
+    <h2>Related content</h2>
+    <a href="#">back</a>
+    <ul id="related">
+        <li ng-repeat="s in related"><a href="{{ s.link }}">{{ s.caption }}</a></li>
+    </ul>
+</div>
